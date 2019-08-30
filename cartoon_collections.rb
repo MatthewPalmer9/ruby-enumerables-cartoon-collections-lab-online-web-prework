@@ -11,7 +11,9 @@ end
 
 def long_planeteer_calls(array)
   
-  array.reduce(){|el|}
+  array.reduce(){|el| 
+    if el.length 
+  }
 end
 
 def find_the_cheese# code an argument here
