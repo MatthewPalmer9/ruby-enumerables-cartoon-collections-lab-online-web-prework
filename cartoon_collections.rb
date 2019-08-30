@@ -1,7 +1,7 @@
 def roll_call_dwarves(array)
   newArray = array.sort
   newArray.map(){ |el, index| 
-    puts el[index] + el
+    puts index + el
   }
 end
 
