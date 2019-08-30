@@ -1,6 +1,8 @@
 def roll_call_dwarves(array)
   newArray = array.sort
-  newArray.map(){|el| puts el}
+  newArray.map(){ |el, index| 
+    puts el[index] + el
+  }
 end
 
 def summon_captain_planet# code an argument here
