@@ -10,7 +10,7 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)
-  array.map(){ |el| }
+  array.map(){ |el| el}
 end
 
 def find_the_cheese# code an argument here
