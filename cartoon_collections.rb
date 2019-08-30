@@ -6,9 +6,7 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)
-  newArray = array.map(){|el| el.capitalize}
-  newArray.map(){|el| el + "!"}
-  newArray
+  newArray = array.map(){|el| el.capitalize + "!"}
 end
 
 def long_planeteer_calls# code an argument here
